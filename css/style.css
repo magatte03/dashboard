@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
+
+body{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+:root{
+    --BGCOLOR-HEADER: rgb(127, 127, 245);
+    --COLOR-HEADER: #FFF;
+}
+
+#barre_menu{
+    display: flex;
+}
+
+.header_barre-menu{
+    background-color: var(--BGCOLOR-HEADER);
+    padding: 2em;
+    color: var(--COLOR-HEADER);
+    height: 40em;
+}
+
+.div_barre-menu{
+    display: flex;
+}
+#barre_de_recherche{
+    background-color: var(--COLOR-HEADER);
+    padding: 2em;
+}
+
+.input_search{
+    padding: 0.7em;
+    border: 0;
+    border-radius: 0.5em;
+    width: 20em;
+    font-size: 18px;
+    background-color: #e9e8e8;
+}
+
+.bouton_search{
+    border: 0;
+    border-radius: 0.5em;
+    background-color: var(--BGCOLOR-HEADER);
+    padding: 1.2em;
+    color: var(--COLOR-HEADER);
+}
+.recherche{
+    display: flex;
+}
+
+.photo_profil{
+    border-radius: 1em;
+    margin-left: 10px;
+}
+
+.container{
+    font-size: 2em;
+    font-family: sans-serif;
+    background-color: #dfdfdf;
+    height: 13em;
+    padding-top: 1px;
+    padding-left: 1em;
+}
