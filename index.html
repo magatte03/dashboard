@@ -57,22 +57,146 @@
             </header>
         
         <section id="barre_de_recherche">
-            <article>
+            <article class="article_barre-recherche">
                 <div class="recherche">
                     <input type="search" placeholder="Search for..." class="input_search">
                     <input type="submit" value="send" class="bouton_search">
 
-                    <img src="image/cloche.png"   alt="" height="30em" width="30em" style="margin-left: 24em;">
-                    <img src="image/e-mail.png"  alt="" height="25em" width="25em" style="margin-left: 3%;">
+                    <img src="image/cloche.png"   alt="icone cloche" height="30em" width="30em" style="margin-left: 30em;">
+                    <img src="image/e-mail.png"  alt="icone email" height="25em" width="25em" style="margin-left: 3%;">
 
                     <p style="margin-left: 4em; margin-top: 6px;" >Valerie</p>
-                    <img src="image/pexels-photo-906052.jpeg" alt="" height="30em" width="30em" class="photo_profil">
+                    <img src="image/pexels-photo-906052.jpeg" alt="photo profil" height="30em" width="30em" class="photo_profil">
                 </div>
             </article>
             <br>
 
             <main class="container">
-                <h1>Dashboard</h1>
+                <header class="container_header">
+                    <h1 class="container_h1">Dashboard</h1>
+                    <p><input type="submit" value="Generate Report" class="container_bouton"></p>
+                </header>
+                
+                <section id="boxes">
+                    <figure class="boxes__box boxes__box-blue" style=" box-shadow: -5px 0px 0px 0px rgb(127, 127, 245)">
+                        <article class="boxes__article">
+                            <div> 
+                                <h5 style="color:rgb(127, 127, 245)">EARNING (MONTHLY)</h5>
+                                <h2 style="font-size: 2em; margin-top: -8px; color: #4f4f4f;">$40,000</h2>
+                            </div>
+                        </article>
+                        <aside class="boxes__aside" style="padding: 1em; margin-top: 20px;">
+                            <img src="image/date.png" alt="calendrier" height="50em" width="40em">
+                        </aside>
+                    </figure>
+
+                    <figure class="boxes__box boxes__box-green" style=" box-shadow: -5px 0px 0px 0px rgb(84, 193, 0);">
+                        <article class="boxes__article">
+                            <div>
+                                <h5 style="color: rgb(84, 193, 0);">EARNING (ANNUAL)</h5>
+                                <h2 style="font-size: 2em; margin-top: -8px; color: #4f4f4f;">$215,000</h2>
+                            </div>
+                        </article>
+                        <aside class="boxes__aside" style="padding: 2em;">
+                            <img src="image/dollar-symbol.png" alt="calendrier" height="40em" width="40em" style="margin-left: 3%;">
+                        </aside>
+                    </figure>
+
+                    <figure class="boxes__box boxes__box-aqua"  style=" box-shadow: -5px 0px 0px 0px rgb(17, 184, 156);">
+                        <article class="boxes__article">
+                            <div>
+                                <h5 style="color: rgb(17, 184, 156);">TASKS</h5>
+                                <h2 style="font-size: 2em; margin-top: -8px; color: #4f4f4f;">50%</h2>
+                            </div>
+                        </article>
+                        <aside class="boxes__aside" style="padding: 2em;">
+                            <img src="image/graphic.png" alt="calendrier" height="45em" width="50em" style="margin-left: 2.7em;">
+                        </aside>
+                    </figure>
+
+                    <figure class="boxes__box boxes__box-orange" style=" box-shadow: -5px 0px 0px 0px rgb(254, 199, 0);">
+                        <article class="boxes__article">
+                            <div>
+                                <h5 style="color: rgb(254, 199, 0);">PENDING REQUESTS</h5>
+                                <h2 style="font-size: 2em; margin-top: -8px; color: #4f4f4f;">18</h2>
+                            </div>
+                        </article>
+                        <aside class="boxes__aside" style="padding: 2em;">
+                            <img src="image/comment.png" alt="calendrier" height="40em" width="45em" style="margin-left: 3%;">
+                        </aside>
+                    </figure>
+                </section>
+
+                <section id="graphiques">
+                    <article>
+                        <header>
+                            <div>
+                                <h3 class="graphiques__header-h3-image1">Earning Overview<img src="image/Evolution-graphique-et-tendance-a-partir-des-donnees-recueillies-Ceci-permet-egalement-la.png" height="250em" width="700em" alt="" style="margin-top: 0.4em;">
+                                </h3>
+                            </div>
+                        </header>
+                    </article>
+
+                    <article>
+                        <header>
+                            <div>
+                                <h3 class="graphiques__header-h3-image2">Revenue Sources<img src="image/OnPaste.20190130-043353.png" alt="" height="257em" width="350em">
+                                </h3>
+                            </div>
+                        </header>
+                    </article>
+                </section>
+
+                <section id="graphiques">
+                    <article style="background-color: #ececec">
+                        <h3 style="background-color: #e9eaea; padding: 0.5em;margin-top: -1em; margin-bottom: 2em; color: rgb(121, 121, 243);">Projets</h3>
+                        <div class="container" >
+                        <div style="display:flex; gap: 15em;">
+                            <p>Server Migrations</p>
+                            <p>20%</p>
+                        </div>
+                        <div class="progressbar-wrapper">
+                            <div title="downloading" class="progressbar server"></div>
+                        </div>
+                        
+                        <div style="display:flex; gap: 15em;">
+                            <p>Sales Tracking</p>
+                            <p>40%</p>
+                        </div>
+                        <div class="progressbar-wrapper">
+                            <div title="downloaded" class="progressbar sales"></div>
+                        </div>
+
+                        <div style="display:flex; gap: 15em;">
+                            <p>Customer Database</p>
+                            <p>60%</p>
+                        </div>
+                        <div class="progressbar-wrapper">
+                            <div title="loading" class="progressbar wrapper"></div>
+                        </div>
+
+                        <div style="display:flex; gap: 15em;">
+                            <p>Payout Details</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progressbar-wrapper">
+                            <div title="loaded" class="progressbar Details"></div>
+                        </div>                                            
+                    </div>
+                </article>
+
+                        <article style="margin-top: -2em;">
+                            <header>
+                                <div>
+                                    <h3  class="graphiques__header-h3-image2">Earning Overview<img src="image/Evolution-graphique-et-tendance-a-partir-des-donnees-recueillies-Ceci-permet-egalement-la.png" height="400em" width="625em" alt="" style="margin-top: 0.2em;">
+                                    </h3>
+                                </div>
+                            </header>
+                        </article>
+
+                    
+                
+                </section>                
             </main>
         </section>
     </section>
