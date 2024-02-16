@@ -28,6 +28,7 @@ body{
 .div_barre-menu{
     display: flex;
 }
+
 #barre_de_recherche{
     background-color: #f3f3f3;
 }
@@ -135,7 +136,7 @@ body{
 }
 
 .progressbar-wrapper{
-  background-color: #dfe6e9;
+  background-color: #e0e1e6;
   color: white;
   border-radius: 6px;
   width: 100%;
@@ -181,4 +182,3 @@ body{
 .Details{
     width: 80%;
 }
-
